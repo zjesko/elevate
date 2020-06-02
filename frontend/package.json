@@ -12,6 +12,7 @@
     "serve": "npx serve dist -p 8080"
   },
   "dependencies": {
+    "bulma": "^0.8.2",
     "serve": "^11.3.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",

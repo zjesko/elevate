@@ -1,33 +1,21 @@
 <template>
   <v-app>
-    <v-navigation-drawer app>
-      <!-- -->
-    </v-navigation-drawer>
-
-    <v-app-bar app>
-      <!-- -->
-    </v-app-bar>
-
-    <!-- Sizes your content based upon application components -->
     <v-content>
-      <!-- Provides the application the proper gutter -->
-      <v-container fluid>
-        <div id="app">
-          <img src="./assets/logo.png">
-          <router-view />
-        </div>
-      </v-container>
+      <div id="app">
+          <Navigation></Navigation>
+        <router-view />
+      </div>
     </v-content>
-
-    <v-footer app>
-      <!-- -->
-    </v-footer>
   </v-app>
 </template>
 
 <script>
+import Navigation from './components/Navigation'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    'Navigation': Navigation
+  }
 }
 </script>
 
@@ -38,6 +26,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
+}
+body {
+  padding-top: 90px;
 }
 </style>

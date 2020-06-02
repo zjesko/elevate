@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import vuetify from '@/plugins/vuetify'
+import './../node_modules/bulma/css/bulma.css'
 
 Vue.config.productionTip = true
 
