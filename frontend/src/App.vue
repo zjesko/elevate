@@ -29,6 +29,6 @@ export default {
   margin-top: 0px;
 }
 body {
-  padding-top: 90px;
+  padding-top: 80px;
 }
 </style>

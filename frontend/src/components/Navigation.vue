@@ -1,8 +1,8 @@
 <template>
-    <nav class="navbar is-fixed-top is-white" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
       <div class="container">
       <div class="navbar-brand">
-          <router-link to="/home" class="navbar-item">
+          <router-link to="/" class="navbar-item">
             <!-- <img src="@/assets/images/elevate_black.png" width="100" height="150"> -->
             <strong>ELEVATE</strong>
           </router-link>
